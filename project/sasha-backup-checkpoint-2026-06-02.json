@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-06-02T18:12:28.622Z",
+  "label": "Stage 1 complete — stability checkpoint",
+  "build_status": "passing",
+  "critical_type_errors": 0,
+  "fixes_applied": [
+    "Added onRemoveJob to EditingPipelinePanelProps",
+    "Fixed flushDirtyCache missing stage/syncStatus in SashaData",
+    "Fixed groupForJob empty-string comparison type error",
+    "Removed invalid divideColor CSS property",
+    "Created public/_redirects for SPA routing"
+  ],
+  "tabs": [
+    "Dashboard",
+    "Shoots",
+    "Direct",
+    "Invoices",
+    "Prices",
+    "Calendar",
+    "Editing"
+  ],
+  "files": {
+    "src/App.tsx": {
+      "sha256_prefix": "c8a2425f94447be2",
+      "lines": 8047
+    },
+    "src/EditingPipeline.tsx": {
+      "sha256_prefix": "3f25b7fdbbce7eba",
+      "lines": 1575
+    },
+    "src/sheetsSync.ts": {
+      "sha256_prefix": "03a71a20b3fd5098",
+      "lines": 1309
+    },
+    "src/DocumentsPanel.tsx": {
+      "sha256_prefix": "9dbb7bb39bfcd2c6",
+      "lines": 1139
+    },
+    "src/ImportModal.tsx": {
+      "sha256_prefix": "279cba70ba72f00a",
+      "lines": 368
+    },
+    "src/index.css": {
+      "sha256_prefix": "79ac993be48c2615",
+      "lines": 32
+    },
+    "src/main.tsx": {
+      "sha256_prefix": "832842269af94b05",
+      "lines": 11
+    },
+    "public/_redirects": {
+      "error": "not found"
+    },
+    "index.html": {
+      "sha256_prefix": "400d507a2d587740",
+      "lines": 21
+    },
+    "package.json": {
+      "sha256_prefix": "1b642126c0a58ad5",
+      "lines": 39
+    },
+    "tailwind.config.js": {
+      "sha256_prefix": "316c86f90ec708a4",
+      "lines": 9
+    },
+    "vite.config.ts": {
+      "sha256_prefix": "68cf8ef4b3147775",
+      "lines": 11
+    }
+  }
+}

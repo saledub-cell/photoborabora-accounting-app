@@ -1,0 +1,1 @@
+-- no-op: secrets are managed via Supabase dashboard/CLI, not migrations
